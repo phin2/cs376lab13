@@ -10,6 +10,7 @@
  */
 
 #include "robot.h"
+#include <string.h>
 
 /**
  * robotPrintMessage
@@ -31,17 +32,20 @@ void robotPrintMessage(void)
 void robotPrintAscii(void)
 {
   int i;
-  char* blank = "                              ";
-  blank = blank +30;
+  \
+for(i = 0; i <= 2; i++) {
+char* blank = "                     ";
+  blank = blank  + (15 - (i*5));
   printf("\n\n"
 	 "UWR: Unidentified Wheeled Robot\n"
 	 "%s    i_i    \n"
 	 "%s   [X_X]   \n"
 	 "%s  /|___|\\ \n"
 	 "%s   d   b   \n",blank, blank, blank, blank);
-
-  blank = blank - 10;
 }
+
+}
+
 
 /**
  * dalekPrintAscii
