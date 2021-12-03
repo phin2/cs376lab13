@@ -12,7 +12,11 @@
  */
 
 #include "robot.h"
+
+// Comment
+
 #include <string.h>
+
 
 /**
  * robotPrintMessage
@@ -64,7 +68,9 @@ void dalekPrintAscii(void)
 	 "I am Dalek, from Dr. Who\n"
 	 "%s      <----->      \n" 
 
-         "%s     <  (J)  >     \n"              
+         "%s     <  (P)  >     \n"        
+            
+
 
          "%s     |       |     \n"
          "%s    < ------- >    \n"
